@@ -2,7 +2,7 @@
 #### A simple [koa-router](https://www.npmjs.com/package/koa-router) body validator middleware based on [Joi](https://www.npmjs.com/package/joi).
 
 ##### Usage
-> This package requires [koa-body](https://www.npmjs.com/package/koa-body) or an alternative body-parser that saves the parsed body in koa's context (`ctx.request.body`).
+> This package requires [koa-body](https://www.npmjs.com/package/koa-body) or an alternative body-parser that saves the parsed body in koas context object (`ctx.request.body`).
 ```javascript
 const Koa = require('koa')
 const koaBody = require('koa-body')
