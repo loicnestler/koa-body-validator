@@ -1,0 +1,11 @@
+{
+	"name": "koa-body-validator",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/loicnestler/koa-body-validator.git",
+	"author": "Loïc Nestler",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"joi": "^14.3.1"
+	}
+}
